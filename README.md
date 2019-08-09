@@ -39,20 +39,28 @@ How to run the attack:
 
 > **_Question :_** What options did you have to modify in the hostapd-wpe configuration file in order to make the attack work ?
 > 
-> **_Answer:_** 
+> **_Answer:_** We just have to modify the adapter setting to put on the name of our wireless adapter and the SSID of the AP so we can test it easily. 
 
 ---
 
 > **_Question:_** What type of hash did you capture ?
 > 
-> **_Answer:_** 
+> **_Answer:_** We got a NETNTLM Hash which is an hash that's used for these types of authentification (PEAP).
 
 ---
 
 > **_Question:_** Which authentication methods are supported by hostapd-wpe ?
 > 
-> **_Réponse:_**
-
+> **_Réponse:_** From the documentation of hostapd-wpe : 
+    1. EAP-FAST/MSCHAPv2 (Phase 0)
+    2. PEAP/MSCHAPv2
+    3. EAP-TTLS/MSCHAPv2
+    4. EAP-TTLS/MSCHAP
+    5. EAP-TTLS/CHAP
+    6. EAP-TTLS/PAP
+## Screens
+![Getting the hashes](./pictures/WPAEnt-getHash.png)
+![Crack the hash](./pictures/john-crack.png)
 
 ## In case of problems...
 
