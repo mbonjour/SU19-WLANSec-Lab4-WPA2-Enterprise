@@ -4,6 +4,8 @@
 
 __Korean/Swiss hybrid teams are highly encouraged__
 
+Authors : Aygerim Bilyalova, Mickael Bonjour, Rachel Gan
+
 ### For this first part, you will need to:
 
 - Implement a WPE (Wireless Pwnage Edition) attack agains a WPA Enterprise network
